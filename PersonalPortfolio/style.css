@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #0d1b2a, #1b263b, #415a77);
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-section h1 span {
+  color: #ffd166;
+}
+
+.placeholder-box {
+  width: 230px;
+  height: 230px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px dashed rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+
+.filter-btn {
+  border: none;
+  background: #e9ecef;
+  padding: 10px 18px;
+  border-radius: 25px;
+  margin: 0 8px;
+  font-weight: 600;
+}
+
+.filter-btn.active {
+  background: #0d6efd;
+  color: white;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+#formMessage {
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+body.dark-theme {
+  background-color: #111827;
+  color: #f8fafc;
+}
+
+body.dark-theme .bg-light,
+body.dark-theme .card,
+body.dark-theme .list-group-item,
+body.dark-theme .table,
+body.dark-theme .filter-btn {
+  background-color: #1f2937;
+  color: #f8fafc;
+  border-color: #374151;
+}
+
+body.dark-theme .btn-outline-light {
+  color: white;
+  border-color: white;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .profile-image {
+    width: 220px;
+    height: 220px;
+    margin-top: 30px;
+  }
+}
